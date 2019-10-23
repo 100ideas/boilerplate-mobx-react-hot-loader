@@ -1,7 +1,5 @@
 import nanoid from 'nanoid/generate';
 
-export * from './isBinaryCheck'
-
 // https://medium.com/jsguru/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d
 export const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
 export const pipe    = (...fns) => x => fns.reduce(     (v, f) => f(v), x);
