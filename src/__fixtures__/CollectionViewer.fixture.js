@@ -1,7 +1,7 @@
 import React from 'react'
 import { observer } from "mobx-react-lite";
-import { CollectionViewer } from '../components/Collection'
-import { useStore } from "../stores";
+import { CollectionViewer } from 'components/Collection'
+import { useStore } from "stores";
 import { mock_book_and_meta } from './mocks'
 
 const mocks = [mock_book_and_meta]

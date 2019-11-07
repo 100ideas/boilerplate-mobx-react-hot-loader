@@ -13,13 +13,17 @@ export const countIdenticalElements = arr => {
   return duplicates + 1
 }
 
-
-
 const noLookAlikeDictLower = '23456789abcdefghijkmnpqrstwxyz'
 export function generateShortNanoId( length = 8 ) {
   return nanoid( noLookAlikeDictLower, length )
 }
 
+// export default { 
+//   generateShortNanoId( length = 8 ) {
+//     const noLookAlikeDictLower = '23456789abcdefghijkmnpqrstwxyz'
+//     return nanoid( noLookAlikeDictLower, length )
+//   }
+// }
 
 
 

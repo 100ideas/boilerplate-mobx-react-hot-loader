@@ -25,10 +25,10 @@
     "typescript": "3.3.3333",
     "webpack": "^4.37.0",
     "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^3.7.2",
+    "@hot-loader/react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@hot-loader/react-dom": "^16.8.6",
     "autobind-decorator": "^2.4.0",
     "mobx": "^5.13.0",
     "mobx-react": "^6.1.1",
